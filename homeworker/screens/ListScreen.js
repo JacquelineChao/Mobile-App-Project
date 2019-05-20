@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import { StyleSheet, Text, View, FlatList } from "react-native";
 import { CheckBox } from 'react-native-elements';
 
-const initialList = [{
+const initialList = [
+  {
     id: 1,
     description: "bread",
     gotten: true,
@@ -13,27 +14,23 @@ const initialList = [{
 class SimpleList extends Component {
   constructor(props) {
     super(props);
-    /*  Type your code here*/
+    /* Type your code here*/
 
     this.checkfunction = this.checkFunction.bind(this);
-  }
+  };
 
   checkFunction(item) {
-    /*  Type your code here*/
-  }
+    /* Type your code here */
+  };
 
-  _renderItem = ({
-    item
-  }) => {
-
+  _renderItem = ({ item }) => {
     return (
-      /*  Type your code here*/
+      /* Type your code here */
     );
   };
 
-  _addKeysToList = shopList => {
-
-    /*  Type your code here*/
+  _addKeysToList = ({ shopList }) => {
+    /* Type your code here */
   };
 
   render() {
@@ -41,9 +38,8 @@ class SimpleList extends Component {
       View style = {
         styles.container
       } >
-      /*  Type your code here*/
-      <
-      /View>
+        /* Type your code here */
+      </View>
     );
   }
 }
