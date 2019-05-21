@@ -15,26 +15,25 @@ const initialList = [
     gotten: false,
   },
   {
-  id: 3,
-  description: "green eggs",
-  gotten: false,
-},
+    id: 3,
+    description: "green eggs",
+    gotten: false,
+  },
   {
-id: 4,
-description: "ham",
-gotten: false,
-},
+    id: 4,
+    description: "ham",
+    gotten: false,
+  },
   {
-id: 5,
-description: "puffer fish",
-gotten: false,
-},
+    id: 5,
+    description: "puffer fish",
+    gotten: false,
+  },
   {
-id: 6,
-description: "soy sauce",
-gotten: false,
-},
-
+    id: 6,
+    description: "soy sauce",
+    gotten: false,
+  },
 ];
 
 class SimpleList extends Component {
@@ -88,7 +87,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: "center",
-    alignItems: "center",
+    alignItems: "flex-start",
     backgroundColor: "#F5FCFF"
   },
   row: { fontSize: 36, padding: 42, borderWidth: 1, borderColor: "#DDDDDD" }
