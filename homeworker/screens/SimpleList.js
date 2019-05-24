@@ -77,15 +77,6 @@ class SimpleList extends Component {
     return (
       <View style={styles.container}>
         <FlatList data={this.state.data} renderItem={this._renderItem} />
-        //
-        <TouchableHighlight
-          style={{ backgroundColor: 'red' }}
-          position="bottomLeft"
-          onPress={this._handleAddProductPress.bind(this)}
-        >
-          <Icon ios="ios-remove" android="md-remove" />
-        </TouchableHighlight>
-        //
       </View>
     );
   }
