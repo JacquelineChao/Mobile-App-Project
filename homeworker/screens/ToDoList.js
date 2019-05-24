@@ -73,15 +73,7 @@ export default class TodoList extends Component {
                 <Text style={styles.listItem}>
                   {item.text}
                 </Text>
-                //<Button title="X" onPress={() => this.deleteTask(index)} />
-                ///*
-                <IconButton
-                  icon="add-a-photo"
-                  color={Colors.red500}
-                  size={20}
-                  onPress={() => this.deleteTask(index)}
-                />
-                //*/
+                <Button title="X" onPress={() => this.deleteTask(index)} />
               </View>
               <View style={styles.hr} />
             </View>}
