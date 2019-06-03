@@ -143,9 +143,12 @@ const styles = StyleSheet.create({
     paddingLeft: 10,
     borderRadius: 25,
     borderColor: "gray",
-    borderWidth: isAndroid ? 0 : 1,
     width: "100%"
   }
 });
 
 AppRegistry.registerComponent("TodoList", () => TodoList);
+
+
+
+//borderWidth: isAndroid ? 0 : 1,
