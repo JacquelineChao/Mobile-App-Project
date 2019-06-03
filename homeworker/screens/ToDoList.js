@@ -84,7 +84,6 @@ export default class TodoList extends Component {
           onSubmitEditing={this.addTask}
           value={this.state.text}
           placeholder="Add Tasks"
-          returnKeyType="done"
           returnKeyLabel="done"
         />
       </View>
